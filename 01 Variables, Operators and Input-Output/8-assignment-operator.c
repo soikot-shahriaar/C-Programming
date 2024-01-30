@@ -11,7 +11,7 @@ int main()
     a /= 10;
     printf("a/10 = %d \n", a);
     a %= 10;
-    printf("a%c10 = %d \n", '%', a);
+    printf("a%%10 = %d \n", '%', a);
     return 0;
 }
 // Priority:

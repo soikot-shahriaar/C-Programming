@@ -10,25 +10,16 @@ int main()
     if (num1 > num2)
     {
         if (num1 > num3)
-        {
             printf("%d is greatest\n", num1);
-        }
         else
-        {
             printf("%d is greatest\n", num3);
-        }
     }
     else
     {
         if (num2 > num3)
-        {
             printf("%d is greatest\n", num2);
-        }
         else
-        {
             printf("%d is greatest\n", num3);
-        }
     }
-
     return 0;
 }

@@ -1,19 +1,4 @@
 #include <stdio.h>
-void square(int n);
-void _square(int *n);
-int main()
-{
-    int number = 4;
-
-    // call by value
-    square(number);
-    printf("number is : %d\n", number);
-
-    // call by reference
-    _square(&number);
-    printf("number is : %d\n", number);
-    return 0;
-}
 
 void square(int n)
 {
@@ -23,6 +8,20 @@ void square(int n)
 
 void _square(int *n)
 {
-    *n = (*n) * (*n);  // 4 * 4 
+    *n = (*n) * (*n); // 4 * 4
     printf("square is : %d\n", *n);
+}
+
+int main()
+{
+    int number = 4;
+
+    // call by value
+    printf("number is : %d\n", number);
+    square(number);
+
+    // call by reference
+    printf("number is : %d\n", number);
+    _square(&number);
+    return 0;
 }

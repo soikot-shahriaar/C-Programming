@@ -1,4 +1,5 @@
 // area of square
+
 #include <stdio.h>
 int main()
 {

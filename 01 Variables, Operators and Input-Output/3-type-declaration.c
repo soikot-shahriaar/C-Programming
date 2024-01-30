@@ -6,7 +6,7 @@ int main()
     int newAge = oldAge + 2;
     printf("New age is : %d\n", newAge);
     int tk = 88, dollar = 1;
-    printf("\nRupee is %d and Dollar is %d", tk, dollar);
+    printf("\nTaka is %d and Dollar is %d", tk, dollar);
     return 0;
 }
 /*

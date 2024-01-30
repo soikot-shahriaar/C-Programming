@@ -1,6 +1,6 @@
 // Predict the Output
-#include <stdio.h>
 
+#include <stdio.h>
 int main()
 {
     printf("nn\n\nnn\n");

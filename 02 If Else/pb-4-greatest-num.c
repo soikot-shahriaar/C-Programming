@@ -11,17 +11,12 @@ int main()
     float greatest = num1;
 
     if (num2 > greatest)
-    {
         greatest = num2;
-    }
     if (num3 > greatest)
-    {
         greatest = num3;
-    }
     if (num4 > greatest)
-    {
         greatest = num4;
-    }
+        
     printf("The Greatest Number is: %.2f\n", greatest);
 
     return 0;

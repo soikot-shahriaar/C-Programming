@@ -1,4 +1,4 @@
-// Swapping 2 numbers using pointers (call by reference)
+// Swap 2 numbers using pointers (call by reference)
 
 #include <stdio.h>
 

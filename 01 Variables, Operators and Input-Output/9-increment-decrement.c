@@ -22,6 +22,6 @@ int main()
 
     int z = 10;
     printf("%d ", z);
-    printf("%d ", ++z); // increment then use z
+    printf("%d ", ++z); // increment, then use z
     return 0;
 }

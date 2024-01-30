@@ -13,8 +13,7 @@ of comment
 
 /*
 Variables
-Variable is the name of a memory
-location which stores some data.
+Variable is the name of a memory location which stores some data.
 
 Rules
 a. Variables are case sensitive

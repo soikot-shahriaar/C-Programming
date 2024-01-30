@@ -11,6 +11,6 @@ int main()
     ptr = &i;       // pointer to int
     ptr_ptr = &ptr; // pointer to pointer to int
 
-    printf("Value of i is %d\n", **ptr_ptr);
+    printf("Value of i is %d\n", **ptr_ptr); // 396
     return 0;
 }

@@ -8,12 +8,8 @@ int main()
     scanf("%d %d %d", &a, &b, &c);
     int sum = a + b + c;
     if (sum < 40 || a < 33 || b < 33 || c < 33)
-    {
         printf("Failed");
-    }
     else
-    {
         printf("Passed");
-    }
     return 0;
 }
