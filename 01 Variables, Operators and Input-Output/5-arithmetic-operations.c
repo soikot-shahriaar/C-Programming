@@ -10,7 +10,7 @@ int main()
     printf("%d ", a + b);
     printf("%d ", a - b);
     printf("%d ", a * b);
-    printf("%d ", a / b);
+    printf("%.2f ", (float)a / b);
 
     float x = 5;
     float y = 2;

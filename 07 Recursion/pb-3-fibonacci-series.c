@@ -2,12 +2,12 @@
 
 #include <stdio.h>
 
-int fibo(int n)
+int fibonacci(int n)
 {
     if (n == 1 || n == 2)
         return 1;
     else
-        return fibo(n - 1) + fibo(n - 2);
+        return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
 int main()
@@ -16,7 +16,7 @@ int main()
     printf("Enter nth : ");
     scanf("%d", &n);
 
-    printf("The %dth element of the Fibonacci series is: %d", n, fibo(n));
+    printf("The %dth element of the Fibonacci series is: %d", n, fibonacci(n));
 
     return 0;
 }

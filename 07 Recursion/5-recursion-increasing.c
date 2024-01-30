@@ -4,11 +4,11 @@
 
 void increasing(int n)
 {
-    if (n == 0) // best case
+    if (n == 0) 
         return;
 
     increasing(n - 1); // recursive call
-    printf("%d\n", n); // code
+    printf("%d\n", n); 
 
     return;
 }

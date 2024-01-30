@@ -16,5 +16,5 @@ int main()
 void printHello()
 {
     printf("Hello World!\n");
-    printf("I'm From Bangladesh.\n");
+    printf("I'm From Bangladesh\n");
 }
