@@ -8,6 +8,7 @@ int main()
     {
         if (i == 3)
         {
+            printf("\n");
             continue;
         }
         printf("%d\n", i);
