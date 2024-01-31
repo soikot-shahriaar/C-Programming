@@ -9,7 +9,13 @@ int main()
     {
         printf("%d\n", i);
         i++;
-    } while (i <= 5);
+    } while (i <= 3);
 
     return 0;
 }
+
+/*
+1
+2
+3
+*/

@@ -16,12 +16,12 @@ int main()
     char firstStr[100] = "Hello "; // firstStr should be large enough
     char secStr[] = "Bangladesh";
     strcat(firstStr, secStr);
-    puts(firstStr);
+    puts(firstStr); // Hello Bangladesh
 
     // Library Functions 4
     char str1[] = "HHHb";
     char str2[] = "HHHa";
-    printf("%d\n", strcmp(str1, str2));
+    printf("%d\n", strcmp(str1, str2)); // 1
 
     return 0;
 }

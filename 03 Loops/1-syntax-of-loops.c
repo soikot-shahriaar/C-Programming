@@ -8,6 +8,7 @@ int main()
     {
         printf("%d hello world\n", i);
     }
+
     printf("\n");
 
     // while loop
@@ -17,6 +18,7 @@ int main()
         printf("%d hi shahriar\n", i);
         i++;
     }
+
     printf("\n");
 
     // do while loop
@@ -29,3 +31,17 @@ int main()
     
     return 0;
 }
+
+/*
+1 hello world
+2 hello world
+3 hello world
+
+1 hi shahriar
+2 hi shahriar
+3 hi shahriar
+
+1 hello bangladesh
+2 hello bangladesh
+3 hello bangladesh
+*/

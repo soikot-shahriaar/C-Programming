@@ -13,6 +13,5 @@ int main()
             ap = ap - 3;
         }
     }
-
     return 0;
 }

@@ -7,7 +7,7 @@ void printString(char arr[])
 {
     for (int i = 0; arr[i] != '\0'; i++) // important
     {
-        printf("%c", arr[i]);
+        printf("%c ", arr[i]);
     }
     printf("\n");
 }

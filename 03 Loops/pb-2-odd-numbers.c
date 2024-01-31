@@ -9,7 +9,7 @@
 int main()
 {
     int n;
-    printf("Enter the number of times to print:\n");
+    printf("Enter the number of times to print: ");
     scanf("%d", &n);
     for (int i = 1; n > 0; i += 2)
     {

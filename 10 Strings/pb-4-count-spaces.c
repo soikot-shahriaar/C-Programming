@@ -15,7 +15,7 @@ int countSpaces(char str[])
 
 int main()
 {
-    char str[] = "i love my country bangladesh. ";
+    char str[] = "i love my country bangladesh ";
     printf("total spaces: %d", countSpaces(str));
     return 0;
 }

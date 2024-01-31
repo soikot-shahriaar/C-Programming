@@ -7,10 +7,11 @@ int main()
     int n;
     printf("Enter the number of terms: ");
     scanf("%d", &n);
+
     float gp = 100;
     for (float i = 0; i <= n; i++)
     {
-        printf("%.2f\n", gp);
+        printf("%.2f ", gp);
         gp = gp / 2;
     }
 

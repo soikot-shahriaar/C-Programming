@@ -9,10 +9,9 @@ int main()
     scanf("%d", &x);
     printf("Enter the multiplication times:\n");
     scanf("%d", &y);
+
     for (int i = 1; i <= y; i++)
-    {
         printf("%d X %d = %d\n", x, i, i * x);
-    }
 
     return 0;
 }

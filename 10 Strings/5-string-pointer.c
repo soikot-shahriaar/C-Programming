@@ -15,7 +15,7 @@ int main()
 {
     char *change = "Hello World";
     puts(change);
-    change="Hello Bangladesh";
+    change = "Hello Bangladesh";
     puts(change);
 
     // char change[] = "Hello World";

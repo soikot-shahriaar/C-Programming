@@ -15,3 +15,9 @@ int main()
     printf("End of Program");
     return 0;
 }
+
+/*
+1
+2
+End of Program
+*/

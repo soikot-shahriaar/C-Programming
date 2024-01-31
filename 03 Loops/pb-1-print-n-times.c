@@ -5,11 +5,10 @@
 int main()
 {
     int n;
-    printf("Enter the number of times to print:\n");
+    printf("Enter the number of times to print: ");
     scanf("%d", &n);
+    
     for (int i = 1; i <= n; i++)
-    {
         printf("Hello World\n");
-    }
     return 0;
 }

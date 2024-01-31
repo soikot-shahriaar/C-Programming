@@ -36,7 +36,7 @@ int main()
     printf("Enter the number of rotation steps (k): ");
     scanf("%d", &k);
 
-    k = (k % n + n) % n;
+    k = k % n;
 
     reverse(arr, 0, n - 1);
     reverse(arr, 0, k - 1);

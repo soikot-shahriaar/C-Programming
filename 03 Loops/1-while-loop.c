@@ -2,7 +2,7 @@
 int main()
 {
     int i = 1;
-    while (i <= 5)
+    while (i <= 3)
     {
         printf("%d\n", i);
         i++;
@@ -10,3 +10,9 @@ int main()
 
     return 0;
 }
+
+/*
+1
+2
+3
+*/
