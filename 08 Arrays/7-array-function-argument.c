@@ -8,14 +8,12 @@
 void printNumbers(int arr[], int n)
 {
     for (int i = 0; i < n; i++)
-    {
         printf("%d ", arr[i]);
-    }
 }
 
 int main()
 {
-    int arr[] = {1, 2, 3, 4, 5, 6};
+    int arr[] = {11, 22, 33, 44, 55, 66};
     printNumbers(arr, 6);
     return 0;
 }

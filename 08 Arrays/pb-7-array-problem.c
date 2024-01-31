@@ -3,19 +3,22 @@
 #include <stdio.h>
 int main()
 {
-    int arr[5];
+    int n;
+    printf("Enter the length of the array: ");
+    scanf("%d", &n);
+    int arr[n];
     printf("Enter the elements of array:\n");
-    for (int i = 0; i <= 4; i++)
+    for (int i = 0; i < n; i++)
         scanf("%d", &arr[i]);
 
-    int n;
+    int x;
     printf("Enter the number to be compared: ");
-    scanf("%d", &n);
+    scanf("%d", &x);
 
     int count = 0;
-    for (int i = 0; i <= 4; i++)
+    for (int i = 0; i < n; i++)
     {
-        if (arr[i] > n)
+        if (arr[i] > x)
             count++;
     }
 

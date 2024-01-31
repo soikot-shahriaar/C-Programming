@@ -4,11 +4,12 @@
 #include <limits.h>
 int main()
 {
-    int arr[6] = {33, -12, 45, -122, 90, 98};
+    int arr[] = {33, -12, 45, -122, 90, 98, 99, 121};
 
     // int max = arr[0];
-    int max = INT_MIN;
-    for (int i = 0; i <= 5; i++)
+    int max = INT_MIN; // smallest value in integer
+    int arrSize = sizeof(arr) / sizeof(arr[0]);
+    for (int i = 0; i <= arrSize; i++)
     {
         if (max < arr[i])
             max = arr[i];

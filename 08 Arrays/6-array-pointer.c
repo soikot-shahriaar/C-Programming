@@ -12,7 +12,7 @@ int main()
     // input
     int *ptr = &numbers[0];
     printf("enter number:\n");
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i <= 4; i++)
     {
         printf("%d index number: ", i);
         // scanf("%d", (ptr + i));
@@ -20,7 +20,7 @@ int main()
     }
 
     // output
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i <= 4; i++)
     {
         // printf("index no %d output = %d\n", i, *(ptr + i));
         printf("index no %d output = %d\n", i, numbers[i]);
