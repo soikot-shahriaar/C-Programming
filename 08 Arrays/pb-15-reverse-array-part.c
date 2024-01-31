@@ -1,22 +1,23 @@
-// Write a program to reverse the array without using any extra array.
+// reversing part of an array
 
 #include <stdio.h>
 
-void rev_arr(int arr[])
+void reverse(int arr[], int s_i, int e_i)
 {
-    for (int i = 0, j = 6; i < j; i++, j--)
+    for (int i = s_i, j = e_i; i < j; i++, j--)
     {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
     }
+    return;
 }
 
 int main()
 {
     int arr[7] = {1, 2, 3, 4, 5, 6, 7};
 
-    rev_arr(arr);
+    reverse(arr, 1, 4);
 
     for (int i = 0; i <= 6; i++)
         printf("%d ", arr[i]);

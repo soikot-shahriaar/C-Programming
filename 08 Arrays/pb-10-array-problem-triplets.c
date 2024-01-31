@@ -11,7 +11,7 @@ int main()
     {
         for (int j = i + 1; j <= 7; j++)
         {
-            for (int k = j; k <= 7; k++)
+            for (int k = j + 1; k <= 7; k++)
             {
                 if (arr[i] + arr[j] + arr[k] == x)
                 {

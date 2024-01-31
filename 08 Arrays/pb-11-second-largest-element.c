@@ -8,30 +8,30 @@ int main()
     int max = INT_MIN;
     int sec_max = INT_MIN;
 
-    // for (int i = 0; i < 6; i++) // max
-    // {
-    //     if (max < arr[i])
-    //         max = arr[i];
-    // }
-
-    // for (int i = 0; i < 6; i++) // second max
-    // {
-    //     if (sec_max < arr[i] && arr[i] != max)
-    //         sec_max = arr[i];
-    // }
-
-    for (int i = 0; i < 6; i++)
+    for (int i = 0; i <= 5; i++) // max
     {
         if (max < arr[i])
-        {
-            sec_max = max; // sec_max is now previous max
-            max = arr[i];  // max is now a new max
-        }
-        else if (sec_max < arr[i] && arr[i] != max)
-        {
-            sec_max = arr[i];
-        }
+            max = arr[i];
     }
+
+    for (int i = 0; i <= 5; i++) // second max
+    {
+        if (sec_max < arr[i] && arr[i] != max)
+            sec_max = arr[i];
+    }
+
+    // for (int i = 0; i <= 5; i++)
+    // {
+    //     if (max < arr[i])
+    //     {
+    //         sec_max = max; // sec_max is now previous max
+    //         max = arr[i];  // max is now a new max
+    //     }
+    //     else if (sec_max < arr[i] && arr[i] != max)
+    //     {
+    //         sec_max = arr[i];
+    //     }
+    // }
 
     printf("Largest Value is %d\n", max);
     printf("Second Largest Value is %d\n", sec_max);
