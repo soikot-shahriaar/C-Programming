@@ -13,13 +13,13 @@ int main()
     scanf("%d", &n);
     int a = 1;
     int b = 1;
-    int fibo = 1;
+    int fibonacci = 1;
     for (int i = 1; i <= n - 2; i++)
     {
-        fibo = a + b;
+        fibonacci = a + b;
         a = b;
-        b = fibo;
+        b = fibonacci;
     }
-    printf("The %dth fibonacci is %d\n", n, fibo);
+    printf("The %dth fibonacci is %d\n", n, fibonacci);
     return 0;
 }

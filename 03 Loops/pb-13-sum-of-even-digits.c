@@ -13,9 +13,7 @@ int main()
     {
         lastDigit = n % 10;
         if (lastDigit % 2 == 0)
-        {
             sum = sum + lastDigit;
-        }
         n = n / 10;
     }
     printf("Sum of even digits: %d", sum);
