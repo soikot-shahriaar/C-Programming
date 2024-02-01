@@ -1,20 +1,30 @@
-// Create an array of size 5 (using calloc) and enter its values from the user.
+// Write a program to take N number of integers as input and display them. Use Dynamic Memory Allocation.
 
 #include <stdio.h>
 #include <stdlib.h>
 
 int main()
 {
-    int *ptr = (int *)calloc(5, sizeof(int));
+    int n;
+    printf("Enter number of integers: ");
+    scanf("%d", &n);
 
-    printf("Enter 5 numbers : ");
-    for (int i = 1; i <= 5; i++)
-        scanf("%d", &ptr[i]);
+    int *ptr = (int *)malloc(n * sizeof(int));
 
-    for (int i = 1; i <= 5; i++)
-        printf("Number %d is %d\n", i, ptr[i]);
+    int *p = ptr;
 
-    free(ptr);
+    for (int i = 1; i <= n; i++)
+    {
+        scanf("%d", &(*ptr));
+        ptr++;
+    }
 
+    int *t = p;
+
+    for (int i = 1; i <= n; i++)
+    {
+        printf("%d ", (*p));
+        p++;
+    }
     return 0;
 }

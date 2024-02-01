@@ -1,4 +1,5 @@
 // difference between malloc() and calloc()
+
 // calloc() initialises the allocated memory blocks with value 0
 // unlike malloc() in which blocks allocated have garbage value.
 

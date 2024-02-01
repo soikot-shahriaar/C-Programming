@@ -7,13 +7,7 @@ int main()
     int n, ch;
     fscanf(fptr, "%c", &ch);
     printf("character = %c\n", ch);
-    fscanf(fptr, "%c", &ch);
-    printf("character = %c\n", ch);
-    fscanf(fptr, "%c", &ch);
-    printf("character = %c\n", ch);
 
-    fscanf(fptr, "%d", &n);
-    printf("number = %d\n", n);
     fscanf(fptr, "%d", &n);
     printf("number = %d\n", n);
 
