@@ -13,7 +13,7 @@ int main()
         for (int j = 0; j < 2; j++)
         {
             arr_sum[i][j] = arr_a[i][j] + arr_b[i][j];
-            printf("%d\t", arr_sum[i][j]);
+            printf("%d ", arr_sum[i][j]);
         }
         printf("\n");
     }

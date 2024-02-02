@@ -11,17 +11,17 @@ int main()
     printf("Enter the number of Columns: ");
     scanf("%d", &c);
 
-    printf("Enter the elements of array:\n");
+    printf("Enter the elements of the array:\n");
     int arr[r][c];
     for (int i = 0; i < r; i++)
     {
         for (int j = 0; j < c; j++)
-        {
             scanf("%d", &arr[i][j]);
-        }
     }
 
     int max = INT_MIN;
+    int max_i, max_j;
+
     for (int i = 0; i < r; i++)
     {
         for (int j = 0; j < c; j++)
@@ -29,9 +29,12 @@ int main()
             if (max < arr[i][j])
             {
                 max = arr[i][j];
+                max_i = i;
+                max_j = j;
             }
         }
     }
     printf("Maximum Value is: %d\n", max);
+    printf("Index of Maximum Value is: [%d][%d]\n", max_i, max_j);
     return 0;
 }
