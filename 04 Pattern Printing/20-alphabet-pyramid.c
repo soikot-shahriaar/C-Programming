@@ -1,10 +1,10 @@
 /*
 Enter the number of lines: 5
-        A 
-      A B C 
-    A B C D E 
-  A B C D E F G 
-A B C D E F G H I 
+        A
+      A B C
+    A B C D E
+  A B C D E F G
+A B C D E F G H I
 */
 
 #include <stdio.h>
@@ -26,9 +26,8 @@ int main()
     int a = 1;
     for (int j = 1; j <= nst; j++)
     {
-      int x = a + 64;
-      char ch = (char)x;
-      printf("%c ", ch);
+      int x = (char)a + 64;
+      printf("%c ", x);
       a++;
     }
     nst = nst + 2;

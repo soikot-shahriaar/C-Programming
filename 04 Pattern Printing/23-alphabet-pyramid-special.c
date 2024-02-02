@@ -6,6 +6,7 @@ Enter the number of lines: 5
   A B C D A B C
 A B C D E A B C D
 */
+
 #include <stdio.h>
 int main()
 {
@@ -32,8 +33,8 @@ int main()
         int a = i - 1;
         for (int k = 1; k <= i - 1; k++)
         {
-            char ch = (char)(k + 64);
-            printf("%c ", ch);
+            char x = (char)(k + 64);
+            printf("%c ", x);
             a--;
         }
         printf("\n");

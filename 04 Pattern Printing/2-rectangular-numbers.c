@@ -1,9 +1,9 @@
 /*
 Enter number of Rows: 3
 Enter number of Columns: 5
-1 2 3 4 5 
-1 2 3 4 5 
-1 2 3 4 5 
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
 */
 
 #include <stdio.h>

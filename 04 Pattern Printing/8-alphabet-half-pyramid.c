@@ -19,9 +19,8 @@ int main()
         int a = 1;
         for (int j = 1; j <= i; j++)
         {
-            int x = a + 64;
-            char ch = (char)x;
-            printf("%c ", ch);
+            int x = (char)a + 64;
+            printf("%c ", x);
             a++;
         }
         printf("\n");

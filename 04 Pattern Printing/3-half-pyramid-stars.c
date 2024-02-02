@@ -1,11 +1,11 @@
-/*
-Enter number of Rows: 5
-* 
-* * 
-* * * 
-* * * * 
-* * * * * 
-*/
+// /*
+// Enter number of Rows: 5
+// *
+// * *
+// * * *
+// * * * *
+// * * * * *
+// */
 
 #include <stdio.h>
 int main()

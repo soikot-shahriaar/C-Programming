@@ -1,6 +1,6 @@
 /*
 Enter number of Rows: 5
-*       * 
+*       *
   *   *
     *
   *   *
@@ -10,20 +10,20 @@ Enter number of Rows: 5
 #include <stdio.h>
 int main()
 {
-    int n;
-    printf("Enter number of Rows: ");
-    scanf("%d", &n);
+  int n;
+  printf("Enter number of Rows: ");
+  scanf("%d", &n);
 
-    for (int i = 1; i <= n; i++)
+  for (int i = 1; i <= n; i++)
+  {
+    for (int j = 1; j <= n; j++)
     {
-        for (int j = 1; j <= n; j++)
-        {
-            if (i == j || i + j == n + 1)
-                printf("* ");
-            else
-                printf("  ");
-        }
-        printf("\n");
+      if (i == j || i + j == n + 1) // condition
+        printf("* ");
+      else
+        printf("  ");
     }
-    return 0;
+    printf("\n");
+  }
+  return 0;
 }

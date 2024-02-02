@@ -1,10 +1,11 @@
 /*
 Enter the number of lines: 4
-      * 
-    * * * 
-  * * * * * 
-* * * * * * * 
+      *
+    * * *
+  * * * * *
+* * * * * * *
  */
+
 #include <stdio.h>
 int main()
 {
@@ -23,7 +24,7 @@ int main()
 
     for (int j = 1; j <= nst; j++)
       printf("* ");
-    nst = nst + 2;
+    nst = nst + 2; // stars increasing by 2
 
     printf("\n");
   }

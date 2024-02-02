@@ -16,15 +16,17 @@ int main()
   scanf("%d", &n);
 
   int nst = 2 * n - 1; // number of stars
+  int nsp = 0;         // number of spaces
 
   for (int i = 1; i <= n; i++)
   {
-    for (int k = 1; k < i; k++)
+    for (int k = 1; k <= nsp; k++)
       printf("  ");
+    nst = nst - 2;
 
     for (int j = 1; j <= nst; j++)
       printf("* ");
-    nst = nst - 2;
+    nsp++;
 
     printf("\n");
   }

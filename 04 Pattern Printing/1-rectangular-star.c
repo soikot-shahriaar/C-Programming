@@ -1,8 +1,8 @@
 /*
 Enter number of Rows: 3
 Enter number of Columns: 6
-* * * * * * 
-* * * * * * 
+* * * * * *
+* * * * * *
 * * * * * *
 */
 

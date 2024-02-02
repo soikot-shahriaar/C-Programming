@@ -18,7 +18,7 @@ int main()
     {
         for (int j = 1; j <= n; j++)
         {
-            int a = n / 2 + 1;
+            int a = n / 2 + 1; // 3 -> 2 // 5 -> 3
             if (i == a || j == a)
                 printf("* ");
             else

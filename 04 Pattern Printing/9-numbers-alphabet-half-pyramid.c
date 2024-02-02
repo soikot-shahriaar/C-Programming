@@ -1,6 +1,6 @@
 /*
 Enter number of Rows: 5
-1 
+1
 A B
 1 2 3
 A B C D
@@ -19,16 +19,11 @@ int main()
         int a = 1;
         for (int j = 1; j <= i; j++)
         {
-            int x = a + 64;
-            char ch = (char)x;
+            int x = (char)a + 64;
             if (i % 2 == 0)
-            {
-                printf("%c ", ch);
-            }
+                printf("%c ", x);
             else
-            {
                 printf("%d ", j);
-            }
             a++;
         }
         printf("\n");

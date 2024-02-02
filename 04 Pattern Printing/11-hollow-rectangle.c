@@ -20,7 +20,7 @@ int main()
     {
         for (int j = 1; j <= c; j++)
         {
-            if (i == 1 || i == r || j == 1 || j == c)
+            if (i == 1 || j == 1 || i == r || j == c) // condition
                 printf("* ");
             else
                 printf("  ");
