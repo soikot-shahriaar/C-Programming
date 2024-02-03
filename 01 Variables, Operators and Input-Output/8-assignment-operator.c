@@ -14,5 +14,3 @@ int main()
     printf("a%%10 = %d \n", '%', a);
     return 0;
 }
-// Priority:
-// ! *, /, %+, -<, <=, >, >===, !=&&||=
