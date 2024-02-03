@@ -2,7 +2,6 @@
 
 #include <stdio.h>
 #include <limits.h>
-
 int main()
 {
     int r, c;
@@ -34,7 +33,7 @@ int main()
             }
         }
     }
-    printf("Maximum Value is: %d\n", max);
-    printf("Index of Maximum Value is: [%d][%d]\n", max_i, max_j);
+    printf("Maximum Value is %d\n", max);
+    printf("Index of Maximum Value is [%d][%d]\n", max_i, max_j);
     return 0;
 }
