@@ -1,4 +1,4 @@
-// Store and Print address (house no, block, city, state) of 5 people
+// Store and Print address (house no, block, city, state) of 5 people and print them using a function
 
 #include <stdio.h>
 #include <string.h>

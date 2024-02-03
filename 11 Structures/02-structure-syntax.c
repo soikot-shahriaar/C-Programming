@@ -1,9 +1,7 @@
-// Structure is a collection of values of different data types
-
 #include <stdio.h>
 #include <string.h>
 
-struct student // User defined data type
+struct student
 {
     char name[100];
     int roll;
