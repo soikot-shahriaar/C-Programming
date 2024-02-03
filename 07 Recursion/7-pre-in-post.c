@@ -2,7 +2,7 @@
 
 void preInPost(int n)
 {
-    if (n==0)
+    if (n == 0)
         return;
 
     printf("Pre %d\n", n);
@@ -23,14 +23,14 @@ int main()
     return 0;
 }
 
-/*
+/* 
 Enter Number: 2
-Pre 2
-Pre 1
-In 1
+Pre 2 
+Pre 1 
+In 1  
 Post 1
-In 2
-Pre 1
+In 2  
+Pre 1 
 In 1
 Post 1
 Post 2

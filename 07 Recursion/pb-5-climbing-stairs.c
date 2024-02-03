@@ -11,7 +11,7 @@ int stairWays(int n)
 }
 
 int main()
-{
+{ 
     int n;
     printf("Enter nth stair: ");
     scanf("%d", &n);
