@@ -22,3 +22,6 @@ int main()
 
     return 0;
 }
+
+// When n is 0, the base case return 1 signifies that there is only one way to climb zero stairs: by not taking any steps.
+// When n is 1, the base case return 1 indicates that there is only one way to climb one stair: by taking a single step.

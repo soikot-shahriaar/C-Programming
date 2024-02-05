@@ -1,4 +1,4 @@
-// when a function call itself, its called recursion
+// when a function call itself, its called recursive function
 
 // printing "Soikot Shahriar" 5 times using recursion
 
@@ -16,6 +16,8 @@ void printName(int count)
 
 int main()
 {
-    printName(5);
+    int n = 3;
+    printName(n);
+
     return 0;
 }
