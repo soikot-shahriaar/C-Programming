@@ -1,5 +1,5 @@
-// Print hello world ‘n’ times. Take ‘n’ as
-// input from user
+// Print hello world ‘n’ times. Take ‘n’ as input from user
+
 #include <stdio.h>
 
 int main()
