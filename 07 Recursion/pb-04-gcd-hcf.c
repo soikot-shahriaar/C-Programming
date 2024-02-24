@@ -18,7 +18,7 @@ int main()
     scanf("%d %d", &a, &b);
 
     int result = gcd(a, b);
-    printf("The GCD of %d and %d is: %d\n", a, b, result);
+    printf("The GCD is: %d\n", result);
 
     return 0;
 }

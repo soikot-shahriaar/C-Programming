@@ -16,6 +16,7 @@ int combination(int n, int r)
     int ncr = factorial(n) / (factorial(r) * factorial(n - r));
     return ncr;
 }
+
 int main()
 {
     int n, r;
